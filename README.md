@@ -6,11 +6,18 @@ Built as part of my MSc Medical Systems Engineering studies at Otto von Guericke
 
 ## What it does
 
+### Static Viewer (mri_viewer.py)
 - Loads a real human brain MRI scan (ICBM152 template)
 - Displays 3 standard medical views:
   - **Sagittal** (Side view)
   - **Coronal** (Front view)
   - **Axial** (Top view)
+
+### Interactive Viewer (mri_interactive.py)
+- Everything above PLUS
+- 3 interactive sliders to scroll through all brain slices in real time
+- Updates all 3 views simultaneously as you move the sliders
+- Similar concept to professional medical imaging software like 3D Slicer
 
 ## Technologies Used
 
@@ -37,6 +44,7 @@ python mri_viewer.py
 Three anatomical views of a real human brain MRI scan displayed in grayscale.
 
 ![MRI Brain Viewer Output](brain_output.png)
+![Interactive MRI Brain Viewer](brain_interactive.png)
 
 ## Author
 
