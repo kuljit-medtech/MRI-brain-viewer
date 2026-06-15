@@ -36,6 +36,8 @@ python mri_viewer.py
 
 Three anatomical views of a real human brain MRI scan displayed in grayscale.
 
+![MRI Brain Viewer Output](brain_output.png)
+
 ## Author
 
 Kuljit Singh - MSc Medical Systems Engineering
